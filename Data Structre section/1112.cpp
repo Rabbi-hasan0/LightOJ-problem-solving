@@ -40,7 +40,6 @@ struct ST {
     build(rc, mid + 1, e);
     pull(n);
   }
-
   void update(int n, int b, int e, int i, int j, int val) {
     push(n, b, e);
     if(j < b || e < i) {
