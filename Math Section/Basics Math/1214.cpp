@@ -2,6 +2,7 @@
 #define print(x) cout << x << '\n'
 #define int long long
 using namespace std;
+
 void solved() {
     string s; int n;
     cin >> s >> n;
