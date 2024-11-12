@@ -11,3 +11,4 @@ def main():
         s, n = map(int, input().split())
         basic_io(s, n)
 main()
+
