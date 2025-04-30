@@ -18,6 +18,7 @@ bool check(vector<int> &a, int mid, int k) {
     }
     return (cnt <= k);
 }
+
 void solved() {
     int n, k; cin >> n >> k;
     vector<int> a(n);
