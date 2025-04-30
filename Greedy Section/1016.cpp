@@ -1,27 +1,3 @@
-/*
-Explaination: 
--------------
-Ycoordinates = {100,3,131,5,99}
-Brush width = 3
-Sort(Ycoordinates) = {3,5,99,100,131}
-
-1st inclusive range
-= [Sort(Ycoordinates)'s 1st element,
-   (Sort(Ycoordinates)'s 1st element
-    + Brush's width)
-  ]
-= [3,3+3] = [3,6]
-
-Up to 5, {3,5} falls in the inclusive range [3,6]
-
-Next inclusive range
-= [Which element did not meet the last inclusive range
-   (Which element did not meet the last inclusive range +Brushe's width)]
-= [99,102]
-So, {99,100} will be covered now.
-
-We keep going like this and increment the inclusive range and number of moves each time.
-*/
 
 #include <bits/stdc++.h>
 #define print(x) cout << x << '\n'
