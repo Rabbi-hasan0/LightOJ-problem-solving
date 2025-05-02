@@ -11,7 +11,6 @@ void solved() {
     for(auto &i: a) {
         cin >> i;
     }
-
     int cnt = 0;
     vector<int> vis(n + 1, false);
     for(int i = 0; i < n; ++i) {
